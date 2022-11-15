@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 210, 241);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4%;
+    color: rgb(151, 0, 105);
+}
+
+h3 {
+    text-align: center;
+    padding: 2%;
+    color: rgb(193, 1, 135);
+}
+
+.core {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+img {
+    width: 450px;
+    animation: pulsar 0.5s linear infinite;
+}
+
+@keyframes pulsar {
+from {
+    width: 400px;
+}
+to {
+    width: 408px;
+}
+
+}
